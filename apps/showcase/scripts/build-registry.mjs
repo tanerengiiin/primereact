@@ -72,15 +72,17 @@ const items = [
             }))
         };
 
-        const outFile = path.join(OUTPUT_DIR, `${file}.json`);
-
-        fs.writeFileSync(outFile, JSON.stringify(item, null, 2));
-
         //console.log(`✅ ${file}.json written`);
 
         return item;
     })
 ];
+
+items.forEach((item) => {
+    const outFile = path.join(OUTPUT_DIR, `${item.name}.json`);
+
+    fs.writeFileSync(outFile, JSON.stringify(item, null, 2));
+});
 
 //console.log(`\n🎉 Registry items generated: ${files.length}`);
 
