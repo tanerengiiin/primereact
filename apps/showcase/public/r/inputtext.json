@@ -3,7 +3,9 @@
   "name": "inputtext",
   "type": "registry:ui",
   "title": "Inputtext",
-  "registryDependencies": [],
+  "registryDependencies": [
+    "index"
+  ],
   "dependencies": [
     "class-variance-authority"
   ],

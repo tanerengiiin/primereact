@@ -16,7 +16,7 @@
             "name": "button",
             "type": "registry:ui",
             "title": "Button",
-            "registryDependencies": [],
+            "registryDependencies": ["index"],
             "dependencies": ["class-variance-authority"],
             "files": [
                 {
@@ -31,7 +31,7 @@
             "name": "colorpicker",
             "type": "registry:ui",
             "title": "Colorpicker",
-            "registryDependencies": [],
+            "registryDependencies": ["index"],
             "dependencies": [],
             "files": [
                 {
@@ -46,7 +46,7 @@
             "name": "inputtext",
             "type": "registry:ui",
             "title": "Inputtext",
-            "registryDependencies": [],
+            "registryDependencies": ["index"],
             "dependencies": ["class-variance-authority"],
             "files": [
                 {
@@ -61,7 +61,7 @@
             "name": "utils",
             "type": "registry:lib",
             "title": "Lib",
-            "registryDependencies": [],
+            "registryDependencies": ["index"],
             "dependencies": ["tailwind-merge"],
             "files": [
                 {
@@ -76,7 +76,7 @@
             "name": "paginator",
             "type": "registry:ui",
             "title": "Paginator",
-            "registryDependencies": [],
+            "registryDependencies": ["index"],
             "dependencies": [],
             "files": [
                 {
@@ -91,7 +91,7 @@
             "name": "switch",
             "type": "registry:ui",
             "title": "Switch",
-            "registryDependencies": [],
+            "registryDependencies": ["index"],
             "dependencies": [],
             "files": [
                 {

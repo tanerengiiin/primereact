@@ -63,7 +63,7 @@ const items = [
             name: file === 'lib' ? 'utils' : file,
             type,
             title: file.replace(/-/g, ' ').replace(/\b\w/g, (l) => l.toUpperCase()),
-            registryDependencies,
+            registryDependencies: [...registryDependencies, 'index'],
             dependencies,
             files: files.map((filePath) => ({
                 path: file === 'lib' ? `lib/utils.ts` : `components/ui/${file}/${path.basename(filePath)}`,

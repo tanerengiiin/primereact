@@ -3,7 +3,9 @@
   "name": "colorpicker",
   "type": "registry:ui",
   "title": "Colorpicker",
-  "registryDependencies": [],
+  "registryDependencies": [
+    "index"
+  ],
   "dependencies": [],
   "files": [
     {

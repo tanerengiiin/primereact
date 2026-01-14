@@ -3,7 +3,9 @@
   "name": "paginator",
   "type": "registry:ui",
   "title": "Paginator",
-  "registryDependencies": [],
+  "registryDependencies": [
+    "index"
+  ],
   "dependencies": [],
   "files": [
     {
