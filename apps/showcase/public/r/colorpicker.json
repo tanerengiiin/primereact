@@ -4,6 +4,7 @@
   "type": "registry:ui",
   "title": "Colorpicker",
   "registryDependencies": [
+    "@primeuix/utils",
     "index"
   ],
   "dependencies": [],

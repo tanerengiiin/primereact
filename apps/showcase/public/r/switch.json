@@ -4,6 +4,7 @@
   "type": "registry:ui",
   "title": "Switch",
   "registryDependencies": [
+    "@primeuix/utils",
     "index"
   ],
   "dependencies": [],

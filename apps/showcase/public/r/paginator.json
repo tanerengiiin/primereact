@@ -4,6 +4,7 @@
   "type": "registry:ui",
   "title": "Paginator",
   "registryDependencies": [
+    "@primeuix/utils",
     "index"
   ],
   "dependencies": [],

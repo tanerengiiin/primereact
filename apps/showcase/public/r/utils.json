@@ -4,6 +4,7 @@
   "type": "registry:lib",
   "title": "Lib",
   "registryDependencies": [
+    "@primeuix/utils",
     "index"
   ],
   "dependencies": [

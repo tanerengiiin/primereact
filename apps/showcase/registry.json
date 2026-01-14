@@ -31,7 +31,7 @@
             "name": "colorpicker",
             "type": "registry:ui",
             "title": "Colorpicker",
-            "registryDependencies": ["index"],
+            "registryDependencies": ["@primeuix/utils", "index"],
             "dependencies": [],
             "files": [
                 {
@@ -46,7 +46,7 @@
             "name": "inputtext",
             "type": "registry:ui",
             "title": "Inputtext",
-            "registryDependencies": ["index"],
+            "registryDependencies": ["@primeuix/utils", "index"],
             "dependencies": ["class-variance-authority"],
             "files": [
                 {
@@ -61,7 +61,7 @@
             "name": "utils",
             "type": "registry:lib",
             "title": "Lib",
-            "registryDependencies": ["index"],
+            "registryDependencies": ["@primeuix/utils", "index"],
             "dependencies": ["tailwind-merge"],
             "files": [
                 {
@@ -76,7 +76,7 @@
             "name": "paginator",
             "type": "registry:ui",
             "title": "Paginator",
-            "registryDependencies": ["index"],
+            "registryDependencies": ["@primeuix/utils", "index"],
             "dependencies": [],
             "files": [
                 {
@@ -91,7 +91,7 @@
             "name": "switch",
             "type": "registry:ui",
             "title": "Switch",
-            "registryDependencies": ["index"],
+            "registryDependencies": ["@primeuix/utils", "index"],
             "dependencies": [],
             "files": [
                 {

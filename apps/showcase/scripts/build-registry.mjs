@@ -115,7 +115,7 @@ function extractImports(code) {
 }
 
 function isGlobalDependency(source) {
-    return source === 'primereact' || source.startsWith('primereact/') || source.startsWith('@primereact/') || source.startsWith('@primeuix/') || source.includes('lib/utils');
+    return source === 'primereact' || source.startsWith('primereact/') || source.startsWith('@primereact/') || source.includes('lib/utils');
 }
 
 function classifyImport(source) {
