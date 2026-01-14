@@ -12,6 +12,7 @@
         "build:content": "contentlayer2 build",
         "build:store": "node ./scripts/generate-store.mjs",
         "build:apidoc": "node ./scripts/build-apidoc.mjs",
+        "build:registry": "node scripts/build-registry.mjs",
         "start": "next start",
         "lint": "next lint"
     },

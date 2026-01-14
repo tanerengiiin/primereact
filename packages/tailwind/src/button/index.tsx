@@ -1,5 +1,5 @@
 import type { ButtonProps } from '@primereact/types/shared/button';
-import { cn } from '@primeuix/utils';
+import { cn } from '@/ui/lib/utils';
 import { cva, VariantProps } from 'class-variance-authority';
 import { Button as PRButton } from 'primereact/button';
 import * as React from 'react';

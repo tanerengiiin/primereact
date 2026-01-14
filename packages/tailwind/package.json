@@ -19,6 +19,7 @@
     "dependencies": {
         "class-variance-authority": "^0.7.1",
         "primereact": "workspace:*",
-        "tailwindcss-primeui": "catalog:"
+        "tailwindcss-primeui": "catalog:",
+        "tailwind-merge": "^3.0.1"
     }
 }
