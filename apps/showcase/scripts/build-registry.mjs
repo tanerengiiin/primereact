@@ -89,8 +89,8 @@ fs.writeFileSync(
     JSON.stringify(
         {
             $schema: 'https://ui.shadcn.com/schema/registry.json',
-            name: 'react-aria',
-            homepage: 'https://react-aria.adobe.com',
+            name: 'primereact',
+            homepage: 'https://v11.primereact.org',
             items
         },
         null,
