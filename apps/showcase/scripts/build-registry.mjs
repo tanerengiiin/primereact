@@ -63,7 +63,7 @@ const items = [
             name: file === 'lib' ? 'utils' : file,
             type,
             title: file.replace(/-/g, ' ').replace(/\b\w/g, (l) => l.toUpperCase()),
-            registryDependencies: [...registryDependencies, 'index'],
+            registryDependencies: [...registryDependencies, 'https://raw.githubusercontent.com/tanerengiiin/primereact/refs/heads/v11-next/apps/showcase/public/r/index.json'],
             dependencies,
             files: files.map((filePath) => ({
                 path: file === 'lib' ? `lib/utils.ts` : `components/ui/${file}/${path.basename(filePath)}`,
@@ -115,7 +115,7 @@ function extractImports(code) {
 }
 
 function isGlobalDependency(source) {
-    return source === 'primereact' || source.startsWith('primereact/') || source.startsWith('@primereact/') || source.includes('lib/utils');
+    return source === 'primereact' || source.startsWith('primereact/') || source.startsWith('@primereact/') || source.startsWith('@primeuix/') || source.includes('lib/utils');
 }
 
 function classifyImport(source) {

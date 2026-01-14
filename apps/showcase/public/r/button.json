@@ -4,7 +4,7 @@
   "type": "registry:ui",
   "title": "Button",
   "registryDependencies": [
-    "index"
+    "https://raw.githubusercontent.com/tanerengiiin/primereact/refs/heads/v11-next/apps/showcase/public/r/index.json"
   ],
   "dependencies": [
     "class-variance-authority"

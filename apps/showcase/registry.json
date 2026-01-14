@@ -16,7 +16,7 @@
             "name": "button",
             "type": "registry:ui",
             "title": "Button",
-            "registryDependencies": ["index"],
+            "registryDependencies": ["https://raw.githubusercontent.com/tanerengiiin/primereact/refs/heads/v11-next/apps/showcase/public/r/index.json"],
             "dependencies": ["class-variance-authority"],
             "files": [
                 {
@@ -31,7 +31,7 @@
             "name": "colorpicker",
             "type": "registry:ui",
             "title": "Colorpicker",
-            "registryDependencies": ["@primeuix/utils", "index"],
+            "registryDependencies": ["https://raw.githubusercontent.com/tanerengiiin/primereact/refs/heads/v11-next/apps/showcase/public/r/index.json"],
             "dependencies": [],
             "files": [
                 {
@@ -46,7 +46,7 @@
             "name": "inputtext",
             "type": "registry:ui",
             "title": "Inputtext",
-            "registryDependencies": ["@primeuix/utils", "index"],
+            "registryDependencies": ["https://raw.githubusercontent.com/tanerengiiin/primereact/refs/heads/v11-next/apps/showcase/public/r/index.json"],
             "dependencies": ["class-variance-authority"],
             "files": [
                 {
@@ -61,7 +61,7 @@
             "name": "utils",
             "type": "registry:lib",
             "title": "Lib",
-            "registryDependencies": ["@primeuix/utils", "index"],
+            "registryDependencies": ["https://raw.githubusercontent.com/tanerengiiin/primereact/refs/heads/v11-next/apps/showcase/public/r/index.json"],
             "dependencies": ["tailwind-merge"],
             "files": [
                 {
@@ -76,7 +76,7 @@
             "name": "paginator",
             "type": "registry:ui",
             "title": "Paginator",
-            "registryDependencies": ["@primeuix/utils", "index"],
+            "registryDependencies": ["https://raw.githubusercontent.com/tanerengiiin/primereact/refs/heads/v11-next/apps/showcase/public/r/index.json"],
             "dependencies": [],
             "files": [
                 {
@@ -91,7 +91,7 @@
             "name": "switch",
             "type": "registry:ui",
             "title": "Switch",
-            "registryDependencies": ["@primeuix/utils", "index"],
+            "registryDependencies": ["https://raw.githubusercontent.com/tanerengiiin/primereact/refs/heads/v11-next/apps/showcase/public/r/index.json"],
             "dependencies": [],
             "files": [
                 {

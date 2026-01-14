@@ -4,8 +4,7 @@
   "type": "registry:ui",
   "title": "Colorpicker",
   "registryDependencies": [
-    "@primeuix/utils",
-    "index"
+    "https://raw.githubusercontent.com/tanerengiiin/primereact/refs/heads/v11-next/apps/showcase/public/r/index.json"
   ],
   "dependencies": [],
   "files": [
