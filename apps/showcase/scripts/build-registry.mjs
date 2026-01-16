@@ -52,9 +52,11 @@ const items = [
         cssVars: {
             light: {
                 'primary-50': '97.93% 2.07% 166.11',
-                primary: '#000000'
+                primary: '#000000',
+                brand: '20 14.3% 4.1%'
             },
             dark: {
+                brand: '20 14.3% 4.1%',
                 '--p-primary-color': 'var(--p-primary-500)'
             }
         }
