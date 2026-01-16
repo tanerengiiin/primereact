@@ -51,7 +51,7 @@ const items = [
         files: [],
         cssVars: {
             light: {
-                '--p-primary-50': '0.9793 0.0207 166.11',
+                'primary-50': '97.93% 2.07% 166.11',
                 primary: '#000000'
             },
             dark: {
