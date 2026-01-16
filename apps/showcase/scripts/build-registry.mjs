@@ -51,13 +51,18 @@ const items = [
         files: [],
         cssVars: {
             light: {
-                'primary-50': '97.93% 2.07% 166.11',
-                primary: '#000000',
-                brand: '20 14.3% 4.1%'
+                main: '#88aaee',
+                bg: '#dfe5f2',
+                border: '#000',
+                text: '#000',
+                ring: '#000'
             },
             dark: {
-                brand: '20 14.3% 4.1%',
-                '--p-primary-color': 'var(--p-primary-500)'
+                main: '#88aaee',
+                bg: '#272933',
+                border: '#000',
+                text: '#e6e6e6',
+                ring: '#fff'
             }
         }
     },
