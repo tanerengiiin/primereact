@@ -52,7 +52,7 @@ const items = [
         cssVars: {
             light: {
                 '--p-primary-color': 'var(--p-primary-500)',
-                primary: 'asdasd'
+                primary: '#000000'
             },
             dark: {
                 '--p-primary-color': 'var(--p-primary-500)'
