@@ -49,8 +49,8 @@ const items = [
         dependencies: ['primereact@11.0.0-alpha.1', '@primeuix/utils', '@primereact/types'],
         registryDependencies: ['https://raw.githubusercontent.com/tanerengiiin/primereact/refs/heads/v11-next/apps/showcase/public/r/utils.json'],
         files: [],
-        cssVars: {
-            light: {
+        css: {
+            ':root': {
                 '--p-primary-50': '#88aaee'
             }
         }
