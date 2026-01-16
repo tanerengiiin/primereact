@@ -75,7 +75,9 @@ const items = [
                 '--p-surface-900': '#18181b',
                 '--p-surface-950': '#09090b',
                 '--p-content-border-radius': '6px'
-            },
+            }
+        },
+        cssVars: {
             light: {
                 '--p-primary-color': 'var(--p-primary-500)',
                 '--p-primary-contrast-color': 'var(--p-surface-0)',
