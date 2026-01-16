@@ -11,18 +11,10 @@
             "files": [],
             "cssVars": {
                 "light": {
-                    "main": "#88aaee",
-                    "bg": "#dfe5f2",
-                    "border": "#000",
-                    "text": "#000",
-                    "ring": "#000"
+                    "primary-50": "#88aaee"
                 },
                 "dark": {
-                    "main": "#88aaee",
-                    "bg": "#272933",
-                    "border": "#000",
-                    "text": "#e6e6e6",
-                    "ring": "#fff"
+                    "primary-50": "#88aaee"
                 }
             }
         },
