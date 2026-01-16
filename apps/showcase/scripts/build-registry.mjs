@@ -75,6 +75,12 @@ const items = [
                 '--p-surface-900': '#18181b',
                 '--p-surface-950': '#09090b',
                 '--p-content-border-radius': '6px'
+            },
+            light: {
+                primary: '#09090b'
+            },
+            dark: {
+                primary: '#09090b'
             }
         }
     },
