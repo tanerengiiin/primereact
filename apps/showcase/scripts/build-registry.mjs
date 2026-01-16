@@ -49,7 +49,14 @@ const items = [
         dependencies: ['primereact@11.0.0-alpha.1', '@primeuix/utils', '@primereact/types'],
         registryDependencies: ['https://raw.githubusercontent.com/tanerengiiin/primereact/refs/heads/v11-next/apps/showcase/public/r/utils.json'],
         files: [],
-        cssVars: {}
+        cssVars: {
+            light: {
+                '--p-primary-color': 'var(--p-primary-500)'
+            },
+            dark: {
+                '--p-primary-color': 'var(--p-primary-500)'
+            }
+        }
     },
     ...files.map((file) => {
         const componentDir = path.join(SOURCE_DIR, file);

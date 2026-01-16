@@ -10,5 +10,12 @@
     "https://raw.githubusercontent.com/tanerengiiin/primereact/refs/heads/v11-next/apps/showcase/public/r/utils.json"
   ],
   "files": [],
-  "cssVars": {}
+  "cssVars": {
+    "light": {
+      "--p-primary-color": "var(--p-primary-500)"
+    },
+    "dark": {
+      "--p-primary-color": "var(--p-primary-500)"
+    }
+  }
 }
