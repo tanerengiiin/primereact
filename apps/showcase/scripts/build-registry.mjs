@@ -50,11 +50,8 @@ const items = [
         registryDependencies: ['https://raw.githubusercontent.com/tanerengiiin/primereact/refs/heads/v11-next/apps/showcase/public/r/utils.json'],
         files: [],
         cssVars: {
-            light: {
-                'primary-50': '#88aaee'
-            },
-            dark: {
-                'primary-50': '#88aaee'
+            theme: {
+                '--p-primary-50': '#88aaee'
             }
         }
     },

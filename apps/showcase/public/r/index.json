@@ -11,11 +11,8 @@
   ],
   "files": [],
   "cssVars": {
-    "light": {
-      "primary-50": "#88aaee"
-    },
-    "dark": {
-      "primary-50": "#88aaee"
+    "theme": {
+      "--p-primary-50": "#88aaee"
     }
   }
 }
